@@ -1,0 +1,87 @@
+body {
+    background-color: rgb(30, 31, 34);
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-family: Rubik, sans-serif;
+}
+
+h2 {
+    color: rgb(123, 202, 255);
+    font-family: Rubik, sans-serif;
+}
+
+h3 {
+    font-family: Rubik, sans-serif;
+}
+
+a {
+    color: rgb(145, 255, 179);
+}
+
+p {
+    color: rgb(185, 185, 185);
+    font-family: "Roboto", sans-serif;
+}
+
+.home-page {
+    padding-top: 30px;
+    margin: auto;
+    width: 800px;
+}
+
+.project-container {
+    margin: auto;
+    padding-bottom: 50px;
+    width: 800px;
+    display: grid;
+    gap: 50px;
+}
+
+.project-image {
+    padding-top: 30px;
+    grid-area: left;
+    width: 50%;
+}
+
+.project-text {
+    grid-area: right;
+    /*padding-top: 0;*/
+}
+
+.right {
+    grid-template-areas: "right left";
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.left {
+    grid-template-areas: "left right";
+}
+
+.project-page {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: block;
+    margin: auto;
+    align-self: center;
+    width: 600px;
+}
+
+.page-bottom {
+    border: 0;
+    color: gray;
+    background-color: gray;
+    margin-top: 300px;
+    margin-bottom: 50px;
+    height: 1px;
+}
+
+.line {
+    color: white;
+    background-color: white;
+    border: 0;
+    height: 2px;
+    margin-top: -15px;
+}
